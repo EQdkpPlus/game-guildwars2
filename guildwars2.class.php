@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('guildwars2')) {
 	class guildwars2 extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '0.1';
+		public $version				= '1.0.0';
 		protected $this_game		= 'guildwars2';
 		protected $types			= array('classes', 'races');
 		protected $classes			= array();
