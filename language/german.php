@@ -33,9 +33,10 @@ $german_array = array(
 		6	=> 'Dieb',
 		7	=> 'Mesmer',
 		8	=> 'Ingenieur',
+		9	=> 'Widergänger',
 	),
 	'races' => array(
-		0	=> 'Unknown',
+		0	=> 'Unbekannt',
 		1	=> 'Sylvari',
 		2	=> 'Norn',
 		3	=> 'Charr',

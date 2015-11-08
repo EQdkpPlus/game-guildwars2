@@ -33,6 +33,7 @@ $english_array = array(
 		6	=> 'Thief',
 		7	=> 'Mesmer',
 		8	=> 'Engineer',
+		9	=> 'Revenant',
 	),
 	'races' => array(
 		0	=> 'Unknown',

@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('guildwars2')) {
 	class guildwars2 extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '1.0.0';
+		public $version				= '1.1.0';
 		protected $this_game		= 'guildwars2';
 		protected $types			= array('classes', 'races');
 		protected $classes			= array();
@@ -65,9 +65,21 @@ if(!class_exists('guildwars2')) {
 
 		public $default_roles = array(
 			1	=> array(8,7,4,3),
-			2	=> array(1,2,3,4,5,6,7,8),
-			3	=> array(1,8,5,7,4,2,6,3),
-			4	=> array(1,8,5,7,4,2,6,3)
+			2	=> array(1,2,3,4,5,6,7,8,9),
+			3	=> array(1,8,5,7,4,2,6,3,9),
+			4	=> array(1,8,5,7,4,2,6,3,9)
+		);
+
+		protected $class_colors = array(
+			1	=> '#765BBA',
+			2	=> '#FCCC12',
+			3	=> '#9EB25D',
+			4	=> '#188B48',
+			5	=> '#1AAED2',
+			6	=> '#FCCC12',
+			7	=> '#D62ECB',
+			8	=> '#A87943',
+			9	=> '#ff0000',
 		);
 
 		protected $glang		= array();
@@ -76,7 +88,7 @@ if(!class_exists('guildwars2')) {
 		public $lang			= false;
 
 		public function install($install=false){}
-		
+
 		protected function load_filters($langs){
 			return array();
 		}
