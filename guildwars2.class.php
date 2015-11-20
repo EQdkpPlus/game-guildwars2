@@ -28,7 +28,7 @@ if(!class_exists('guildwars2')) {
 		protected static $apiLevel	= 20;
 		public $version				= '1.1.0';
 		protected $this_game		= 'guildwars2';
-		protected $types			= array('classes', 'races');
+		protected $types			= array('classes', 'races', 'roles');
 		protected $classes			= array();
 		protected $races			= array();
 		public $langs				= array('english', 'german');
