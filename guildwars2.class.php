@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('guildwars2')) {
 	class guildwars2 extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version				= '1.1.0';
+		public $version				= '1.2.0';
 		protected $this_game		= 'guildwars2';
 		protected $types			= array('classes', 'races', 'roles');
 		protected $classes			= array();
@@ -64,9 +64,9 @@ if(!class_exists('guildwars2')) {
 		);
 
 		public $default_roles = array(
-			1	=> array(8,7,4,3),
-			2	=> array(1,2,3,4,5,6,7,8,9),
-			3	=> array(1,8,5,7,4,2,6,3,9),
+			1	=> array(8,3),
+			2	=> array(5,9),
+			3	=> array(1,2,4,6,7),
 			4	=> array(1,8,5,7,4,2,6,3,9)
 		);
 
